@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Form from '../components/Form';
 import Header from '../components/Header';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Form />
     </div>
   );
 }
