@@ -1,9 +1,10 @@
-function Avatar({ url }) {
+function Avatar({ url, className }) {
   return (
     <a
       href="https://github.com/GabrielLSobreira"
       target="_blank"
       rel="noopener noreferrer"
+      className={`${className}`}
     >
       <img
         loading="lazy"

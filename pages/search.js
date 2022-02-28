@@ -8,6 +8,7 @@ function Search() {
         <title>Search Results</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <HeaderSearch />
     </div>
   );
 }
