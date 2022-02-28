@@ -19,13 +19,13 @@ function HeaderSearch() {
       <div className="flex w-full p-6 items-center">
         <Image
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-          height={40}
-          width={120}
+          height={30}
+          width={92}
           alt="Google Logo"
           onClick={() => router.push('/')}
           className="cursor-pointer"
         />
-        <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center">
+        <form className="flex flex-grow px-6 py-2 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center">
           <input
             ref={searchInputRef}
             className="flex-grow w-full focus:outline-none"
