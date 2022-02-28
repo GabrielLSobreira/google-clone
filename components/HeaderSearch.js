@@ -40,7 +40,7 @@ function HeaderSearch() {
           <button hidden type="submit" onClick={search}></button>
         </form>
         <Avatar
-          className="ml-auto"
+          className="ml-auto w-1/4 sm:w-auto"
           url="https://avatars.githubusercontent.com/u/88405139?s=96&v=4"
         />
       </div>
