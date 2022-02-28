@@ -22,8 +22,8 @@ function Form() {
         width={272}
       />
       <div
-        className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md border border-gray-200 rounded-full px-5 py-3 items-center
-    sm:max-w-xl lg:max-w-2xl"
+        className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md border border-gray-200 rounded-full px-5 py-2.5 items-center
+    sm:max-w-xl lg:max-w-xl"
       >
         <SearchIcon className="h-5 mr-3 text-gray-400" />
         <input
